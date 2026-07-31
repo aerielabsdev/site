@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TableHawk — Export any table to Excel, CSV & Sheets</title>
+  <meta name="description" content="One-click export of any website table to Excel, CSV, Markdown or Google Sheets. No row limits, no account, 100% local. Pro exports app tables and virtualized grids.">
+  <style>
+    :root { --navy:#12203f; --navy2:#1c2e54; --amber:#ffb020; --blue:#0b5cff; --grey:#a9b5cd; }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    body { font:17px/1.6 -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+           background:linear-gradient(160deg,var(--navy),var(--navy2)); color:#f5f7fc; min-height:100vh; }
+    .wrap { max-width:880px; margin:0 auto; padding:56px 24px; }
+    header { display:flex; align-items:center; gap:14px; margin-bottom:64px; }
+    header img { width:44px; height:44px; }
+    header .name { font-size:22px; font-weight:700; }
+    header .name a { color:#f5f7fc; text-decoration:none; }
+    h1 { font-size:42px; line-height:1.15; margin-bottom:14px; }
+    .accent { color:var(--amber); }
+    .sub { color:var(--grey); font-size:19px; max-width:600px; margin-bottom:36px; }
+    .cta { display:inline-block; background:var(--blue); color:#fff; text-decoration:none;
+           padding:13px 26px; border-radius:9px; font-weight:700; font-size:17px; margin-bottom:64px; }
+    .cta:hover { filter:brightness(1.1); }
+    .cols { display:grid; grid-template-columns:1fr 1fr; gap:22px; margin-bottom:56px; }
+    @media (max-width:700px){ .cols { grid-template-columns:1fr; } }
+    .tier { background:rgba(255,255,255,.05); border:1px solid rgba(255,255,255,.09); border-radius:14px; padding:26px; }
+    .tier h2 { font-size:20px; margin-bottom:4px; }
+    .tier .price { color:var(--amber); font-weight:700; margin-bottom:14px; }
+    .tier ul { list-style:none; }
+    .tier li { color:var(--grey); padding:5px 0 5px 26px; position:relative; }
+    .tier li::before { content:"✓"; position:absolute; left:0; color:var(--amber); font-weight:700; }
+    .privacy { color:var(--grey); max-width:600px; }
+    .privacy b { color:#f5f7fc; }
+    footer { margin-top:72px; color:var(--grey); font-size:14px; border-top:1px solid rgba(255,255,255,.09); padding-top:20px; }
+    footer a { color:var(--grey); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <img src="/assets/aerie-nest.png" alt="Aerie Labs logo">
+      <div class="name"><a href="/">Aerie Labs</a> / TableHawk</div>
+    </header>
+
+    <h1>Exports the tables<br>other tools <span class="accent">can't even see</span>.</h1>
+    <p class="sub">Any table on any webpage → Excel, CSV, Markdown, or straight into Google Sheets. One click. Merged cells, footnotes and currency cleaned up automatically.</p>
+    <a class="cta" href="#" id="install">Add to Chrome — Free</a>
+
+    <div class="cols">
+      <div class="tier">
+        <h2>Free</h2>
+        <div class="price">$0 forever</div>
+        <ul>
+          <li>Every classic HTML table, unlimited rows</li>
+          <li>Excel (.xlsx), CSV, Markdown, copy-for-Sheets</li>
+          <li>Smart numbers: $1,234.50 arrives ready to sum</li>
+          <li>No account. No watermarks. No caps.</li>
+        </ul>
+      </div>
+      <div class="tier">
+        <h2>Pro</h2>
+        <div class="price">$5/month · $35 lifetime</div>
+        <ul>
+          <li>App-style tables (React/div grids) with no HTML markup</li>
+          <li>Virtualized tables: auto-scrolls & captures every row</li>
+          <li>400+ rows from a screen that shows 40 — no gaps</li>
+          <li>Tables inside shadow DOM & web components</li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="privacy"><b>Privacy by architecture.</b> TableHawk has no servers and collects nothing. It touches a page only when you click its icon, and your data never leaves your machine. Read the full <a href="/tablehawk/privacy.html" style="color:var(--amber)">privacy policy</a>.</p>
+
+    <footer>© 2026 Aerie Labs · <a href="mailto:support@aerielabs.net">support@aerielabs.net</a> · <a href="/tablehawk/privacy.html">Privacy</a></footer>
+  </div>
+</body>
+</html>

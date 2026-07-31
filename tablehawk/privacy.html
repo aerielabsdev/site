@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TableHawk — Privacy Policy | Aerie Labs</title>
+  <style>
+    body { font: 16px/1.65 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+           color: #1a2233; max-width: 720px; margin: 0 auto; padding: 48px 20px 80px; }
+    h1 { font-size: 28px; margin-bottom: 4px; }
+    .sub { color: #6b7486; margin-bottom: 32px; }
+    h2 { font-size: 19px; margin-top: 32px; border-bottom: 1px solid #e8ebf0; padding-bottom: 6px; }
+    .accent { color: #0b5cff; }
+    .hawk { color: #d99a1c; font-weight: 700; }
+    nav { display: flex; align-items: center; gap: 10px; margin-bottom: 40px; font-size: 15px; }
+    nav img { width: 30px; height: 30px; }
+    nav a { color: #1a2233; text-decoration: none; font-weight: 700; }
+    nav a:hover { color: #0b5cff; }
+    nav .sep { color: #c3cad6; }
+    nav .crumb { color: #6b7486; font-weight: 400; }
+    footer { margin-top: 48px; color: #6b7486; font-size: 14px; border-top: 1px solid #e8ebf0; padding-top: 16px; }
+    code { background: #f4f6fa; padding: 1px 6px; border-radius: 4px; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <nav>
+    <img src="/assets/aerie-nest.png" alt="Aerie Labs logo">
+    <a href="/">Aerie Labs</a>
+    <span class="sep">/</span>
+    <a href="/tablehawk/">TableHawk</a>
+    <span class="sep">/</span>
+    <span class="crumb">Privacy</span>
+  </nav>
+  <h1><span class="hawk">TableHawk</span> Privacy Policy</h1>
+  <div class="sub">Effective July 31, 2026 · Aerie Labs</div>
+
+  <p><strong>The short version: TableHawk collects nothing.</strong> It has no servers, no analytics, no tracking, and no way to see your data even if we wanted to. Everything the extension does happens locally in your browser.</p>
+
+  <h2>What TableHawk does</h2>
+  <p>TableHawk detects tables on the webpage you are currently viewing and converts them into spreadsheet formats (Excel, CSV, Markdown, or clipboard text). All detection, extraction, and file generation run entirely on your device. Exported files are created in your browser and saved directly by you; they are never uploaded, transmitted, or seen by us.</p>
+
+  <h2>Data we collect</h2>
+  <p>None. TableHawk does not collect, transmit, store, sell, or share any personal information, browsing history, page content, table data, or usage analytics. There is no telemetry of any kind.</p>
+
+  <h2>What is stored on your device</h2>
+  <p>TableHawk uses Chrome's built-in extension storage (<code>chrome.storage</code>) to remember two things: your Pro license status and your export preferences (such as the "smart numbers" toggle). This data lives in your own browser profile, syncs only through your own Google account's normal Chrome sync, and is deleted when you uninstall the extension. We cannot access it.</p>
+
+  <h2>Permissions, explained</h2>
+  <p>TableHawk requests the minimum permissions Chrome offers for this job. <strong>activeTab</strong> and <strong>scripting</strong> allow the extension to read tables on a page <em>only after you click the TableHawk icon on that page</em> — it has no standing access to any website and cannot see your browsing. <strong>clipboardWrite</strong> lets exports be copied to your clipboard when you choose a copy option. <strong>storage</strong> holds the local settings described above.</p>
+
+  <h2>Payments</h2>
+  <p>TableHawk Pro purchases are processed by our payment provider, not by the extension. Payment details are handled entirely by the processor under its own privacy policy; TableHawk itself never sees or stores payment information.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy ever changes, the updated version will be posted at this address with a new effective date. Because the extension's architecture cannot transmit data, any future change would still be bound by that design.</p>
+
+  <h2>Contact</h2>
+  <p>Questions? Email <a class="accent" href="mailto:support@aerielabs.net">support@aerielabs.net</a>.</p>
+
+  <footer>© 2026 Aerie Labs · TableHawk — exports the tables other tools can't even see.</footer>
+</body>
+</html>
